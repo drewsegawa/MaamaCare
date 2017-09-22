@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mama Care</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contentDescriptionimage">Image desciption</string>
+    <string name="hint_username">User Name</string>
+    <string name="password">Password</string>
+    <string name="hint_gender_male">Male</string>
+    <string name="hint_gender_female">Female</string>
+    <string name="create_account">Register User</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">Mama Care Options</string>
+    <string name="title_activity_register_patient">Register Patient</string>
+    <string name="title_activity_view_cases">View Cases</string>
+    <string name="title_activity_view_case_details">Case Details</string>
+    <string name="title_activity_add_an_cvisits">Anc Visit</string>
+
+    <string-array name="ancvisists_array">
+        <item>VisitOne</item>
+        <item>VisitTwo</item>
+        <item>VisitThree</item>
+        <item>VisitFour</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

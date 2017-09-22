@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group.mamacare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.group.mamacare.LoginActivity"
+            android:label="@string/login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.group.mamacare.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.group.mamacare.RegisterPatientActivity"
+            android:label="@string/title_activity_register_patient" >
+        </activity>
+        <activity
+            android:name="com.group.mamacare.ViewCasesActivity"
+            android:label="@string/title_activity_view_cases" >
+        </activity>
+
+        <provider
+            android:name="com.group.data.DataProvider"
+            android:authorities="com.groupa.data.DataProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.group.mamacare.ViewCaseDetailsActivity"
+            android:label="@string/title_activity_view_case_details" >
+        </activity>
+        <activity
+            android:name="com.group.mamacare.AddAnCVisitsActivity"
+            android:label="@string/title_activity_add_an_cvisits" >
+        </activity>
+    </application>
+
+</manifest>
